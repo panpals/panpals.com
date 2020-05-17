@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Muli', sans-serif;
 }
 
 @font-face {
@@ -12,13 +13,8 @@
   src: url(assets/fonts/Gravity-Light.otf);
 }
 
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-}
-
-h4, h5, p, a, li, ol, ul, label, textarea {
-  font-family: 'Roboto', sans-serif;
-}
+/* h1, h2, h3, h4, h5, p, a, li, ol, ul, label, textarea {
+} */
 
 .horizontal {
   display: flex;
