@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: GB;
+  src: url(assets/fonts/Gravity-Book.otf);
+}
+
+@font-face {
+  font-family: GL;
+  src: url(assets/fonts/Gravity-Light.otf);
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4, h5, p, a, li, ol, ul {
+  font-family: 'Roboto', sans-serif;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
