@@ -30,6 +30,12 @@ html {
   align-items: center;
   margin-right: 10vw;
   flex-grow: 0.8;
+  color: #000;
+}
+
+.navbar-links a {
+  color: #000;
+  text-decoration: none;
 }
 
 @keyframes fadeIn {
@@ -70,16 +76,25 @@ html {
 
 #section-1-buttons-container {
   justify-content: center;
+  width: 30%;
 }
 
 .section-1-button {
+  background-color: #393939;
   border: none;
+  height: 5vh;
+  color: #fff;
+  width: 100%;
+  box-shadow: 2px 2px 5px #888888;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  /* border: none;
   height: 5vh;
 
   margin-left: 3vw;
   margin-right: 3vw;
 
-  box-shadow:  2px 2px 5px #888888;
+  box-shadow:  2px 2px 5px #888888; */
 }
 
 .section-1-button:hover {

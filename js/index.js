@@ -1,3 +1,22 @@
+// document.querySelectorAll("a").forEach(link => {
+//   // console.log(link);
+//   // console.log("h");
+//   link.onclick = e => {
+//     const navbar = document.getElementsByClassName("navbar")[0];
+//     const navbarHeight = navbar.clientHeight;
+
+//     let top;
+
+//     if(link.innerHTML == "Home") {
+//       top = document.getElementById("section-1").getBoundingClientRect().top;
+//     } else if(link.innerHTML == "About Us") {
+//       top = document.getElementById("section-2").getBoundingClientRect().top;
+//     }
+
+//     window.scrollTo(0, top + window.pageYOffset - navbarHeight);
+//   }
+// });
+
 var controller = new ScrollMagic.Controller({
   globalSceneOptions: {
     triggerHook: 0.2,
