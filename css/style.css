@@ -16,7 +16,7 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
-h4, h5, p, a, li, ol, ul {
+h4, h5, p, a, li, ol, ul, label, textarea {
   font-family: 'Roboto', sans-serif;
 }
 

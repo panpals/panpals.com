@@ -1,23 +1,17 @@
 var controller = new ScrollMagic.Controller({
   globalSceneOptions: {
     triggerHook: 0.2,
-    duration: "200%" // this works just fine with duration 0 as well
-    // However with large numbers (>20) of pinned sections display errors can occur so every section should be unpinned once it's covered by the next section.
-    // Normally 100% would work for this, but here 200% is used, as Panel 3 is shown for more than 100% of scrollheight due to the pause.
+    duration: "200%"
   },
 });
 
-// get all slides
 var slides = document.querySelectorAll("section");
-
-// create scene for every slide
 
 for (var i=0; i<slides.length; i++) {
   new ScrollMagic.Scene({
       triggerElement: slides[i],
     })
     .setPin(slides[i], {pushFollowers: false})
-    // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 }
 
@@ -30,16 +24,29 @@ const controller2 =  new ScrollMagic.Controller({
 new ScrollMagic.Scene({
   triggerElement: "#section-3",
   offset: -150,
-  duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
-  // offset: 50 // move trigger to center of element
+  duration: "80%",
 })
-.setClassToggle("#section-3-big", "visible") // add class to reveal
+.setClassToggle("#section-3-big", "visible")
 .addTo(controller2);
 
 new ScrollMagic.Scene({
   triggerElement: "#section-3",
-  duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
-  // offset: 50 // move trigger to center of element
+  duration: "80%",
 })
-.setClassToggle("#section-3-video", "visible") // add class to reveal
+.setClassToggle("#section-3-video", "visible")
+.addTo(controller2);
+
+new ScrollMagic.Scene({
+  triggerElement: "#section-4",
+  offset: -150,
+  duration: "80%",
+})
+.setClassToggle("#section-4-big", "visible")
+.addTo(controller2);
+
+new ScrollMagic.Scene({
+  triggerElement: "#section-4",
+  duration: "80%",
+})
+.setClassToggle("#contact-form", "visible")
 .addTo(controller2);
