@@ -65,6 +65,10 @@ html {
   text-align: center;
 }
 
+#section-1-video {
+
+}
+
 #section-1-big {
   font-size: 3rem;
 }
@@ -123,11 +127,17 @@ html {
 
 #section-2-big {
   font-size: 3rem;
+
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .section-2-text {
   width: 70%;
   line-height: 7mm;
+
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .section-2-button {
@@ -143,6 +153,16 @@ html {
 
 .section-2-button:active {
   box-shadow:  1px 1px 2px #888888;
+}
+
+#get-in-touch {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.section-2-button {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 #section-3 {
@@ -164,6 +184,14 @@ html {
 }
 
 #section-3-video {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#section-3-text {
+  width: 70%;
+  line-height: 7mm;
+  text-indent: 10mm;
   opacity: 0;
   transition: opacity 1s ease;
 }

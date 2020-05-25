@@ -41,6 +41,35 @@ const controller2 =  new ScrollMagic.Controller({
 });
 
 new ScrollMagic.Scene({
+  triggerElement: "#section-2",
+  offset: -150,
+  duration: "80%",
+})
+.setClassToggle("#section-2-big", "visible")
+.addTo(controller2);
+
+new ScrollMagic.Scene({
+  triggerElement: "#section-2",
+  duration: "80%",
+})
+.setClassToggle(".section-2-text", "visible")
+.addTo(controller2);
+
+new ScrollMagic.Scene({
+  triggerElement: "#section-2",
+  duration: "80%",
+})
+.setClassToggle("#get-in-touch", "visible")
+.addTo(controller2);
+
+new ScrollMagic.Scene({
+  triggerElement: "#section-2",
+  duration: "80%",
+})
+.setClassToggle(".section-2-button", "visible")
+.addTo(controller2);
+
+new ScrollMagic.Scene({
   triggerElement: "#section-3",
   offset: -150,
   duration: "80%",
@@ -52,7 +81,7 @@ new ScrollMagic.Scene({
   triggerElement: "#section-3",
   duration: "80%",
 })
-.setClassToggle("#section-3-video", "visible")
+.setClassToggle("#section-3-text", "visible")
 .addTo(controller2);
 
 new ScrollMagic.Scene({
