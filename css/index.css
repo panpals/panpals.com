@@ -1,98 +1,61 @@
 html {
-  overflow-x: hidden;
-}
-
-.navbar {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 20vh;
-  background-color: #EDF2F4;
-  box-shadow: 2px 2px 8px #888888;
-  z-index: 99999;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-}
-
-.navbar-title-container {
-  flex-grow: 1;
-  text-align: center;
-}
-
-.navbar-title {
-  text-transform: uppercase;
-  letter-spacing: 1mm;
-}
-
-.navbar-links {
-  justify-content: space-evenly;
-  align-items: center;
-  margin-right: 10vw;
-  flex-grow: 0.8;
-  color: #000;
-}
-
-.navbar-links a {
-  color: #000;
-  text-decoration: none;
+	overflow-x: hidden;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 #section-1 {
-  animation: 3s ease 0s 1 fadeIn;
-  width: 100%;
-  height: 80vh;
-  background-color: rgb(231, 231, 231);
-  /* position: fixed; */
-  /* top: 20vh; */
-  /* left: 0; */
-  /* z-index: 0; */
-  margin-top: 20vh;
+	animation: 3s ease 0s 1 fadeIn;
+	width: 100%;
+	height: 80vh;
+	background-color: rgb(231, 231, 231);
+	/* position: fixed; */
+	/* top: 20vh; */
+	/* left: 0; */
+	/* z-index: 0; */
+	margin-top: 20vh;
 
-  justify-content: center;
-  align-items: center;
-  row-gap: 3vh;
+	justify-content: center;
+	align-items: center;
+	row-gap: 3vh;
 
-  text-align: center;
+	text-align: center;
 }
 
 #section-1-video {
-
 }
 
 #section-1-big {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 #section-1-text {
-  width: 70%;
-  line-height: 7mm;
+	width: 70%;
+	line-height: 7mm;
 }
 
 #section-1-buttons-container {
-  justify-content: center;
-  width: 30%;
+	justify-content: center;
+	width: 30%;
 }
 
 .section-1-button {
-  background-color: #393939;
-  border: none;
-  height: 5vh;
-  color: #fff;
-  width: 100%;
-  box-shadow: 2px 2px 5px #888888;
-  margin-left: 3vw;
-  margin-right: 3vw;
-  /* border: none;
+	background-color: #393939;
+	border: none;
+	height: 5vh;
+	color: #fff;
+	width: 100%;
+	box-shadow: 2px 2px 5px #888888;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	/* border: none;
   height: 5vh;
 
   margin-left: 3vw;
@@ -102,188 +65,100 @@ html {
 }
 
 .section-1-button:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .section-1-button:active {
-  box-shadow:  1px 1px 2px #888888;
+	box-shadow: 1px 1px 2px #888888;
 }
 
 #section-2 {
-  width: 100%;
-  height: 80vh;
-  background-color: #EDF2F4;
-  /* z-index: 10; */
-  /* position: relative; */
-  /* top: 100vh; */
-  /* margin-top: 100vh; */
+	width: 100%;
+	height: 80vh;
+	background-color: #edf2f4;
+	/* z-index: 10; */
+	/* position: relative; */
+	/* top: 100vh; */
+	/* margin-top: 100vh; */
 
-  justify-content: center;
-  align-items: center;
-  row-gap: 5vh;
+	justify-content: center;
+	align-items: center;
+	row-gap: 5vh;
 
-  text-align: center;
+	text-align: center;
 }
 
 #section-2-big {
-  font-size: 3rem;
+	font-size: 3rem;
 
-  opacity: 0;
-  transition: opacity 1s ease;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 .section-2-text {
-  width: 70%;
-  line-height: 7mm;
+	width: 70%;
+	line-height: 7mm;
 
-  opacity: 0;
-  transition: opacity 1s ease;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 .section-2-button {
-  border: none;
-  height: 5vh;
+	border: none;
+	height: 5vh;
 
-  box-shadow:  2px 2px 5px #888888;
+	box-shadow: 2px 2px 5px #888888;
 }
 
 .section-2-button:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .section-2-button:active {
-  box-shadow:  1px 1px 2px #888888;
+	box-shadow: 1px 1px 2px #888888;
 }
 
 #get-in-touch {
-  opacity: 0;
-  transition: opacity 1s ease;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 .section-2-button {
-  opacity: 0;
-  transition: opacity 1s ease;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 #section-3 {
-  width: 100%;
-  height: 80vh;
-  background-color: #fff;
-  /* position: relative; */
-  /* top: 100vh; */
+	width: 100%;
+	height: 80vh;
+	background-color: #fff;
+	/* position: relative; */
+	/* top: 100vh; */
 
-  justify-content: center;
-  align-items: center;
-  row-gap: 5vh;
+	justify-content: center;
+	align-items: center;
+	row-gap: 5vh;
 }
 
 #section-3-big {
-  font-size: 3rem;
-  opacity: 0;
-  transition: opacity 1s ease;
+	font-size: 3rem;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 #section-3-video {
-  opacity: 0;
-  transition: opacity 1s ease;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 #section-3-text {
-  width: 70%;
-  line-height: 7mm;
-  text-indent: 10mm;
-  opacity: 0;
-  transition: opacity 1s ease;
+	width: 70%;
+	line-height: 7mm;
+	text-indent: 10mm;
+	opacity: 0;
+	transition: opacity 1s ease;
 }
 
 .visible {
-  opacity: 1 !important;
-}
-
-#section-4 {
-  width: 100%;
-  height: 80vh;
-  /* background-color: #EDF2F4; */
-  background-color: rgb(231, 231, 231);
-
-  justify-content: center;
-  align-items: center;
-  row-gap: 5vh;
-}
-
-#section-4-big {
-  font-size: 3rem;
-  margin-bottom: 3vh;
-
-  opacity: 0;
-  transition: opacity 1s ease;
-}
-
-#contact-form {
-  width: 50%;
-
-  opacity: 0;
-  transition: opacity 1s ease;
-
-  justify-content: space-around;
-  align-items: center;
-  row-gap: 5vh;
-}
-
-#contact-form-text-email {
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  column-gap: 3vw;
-}
-
-input {
-  border: 0;
-  outline: 0;
-  background: transparent;
-  border-bottom: 1px solid #d9d9d9;
-  color: #9e9c9c;
-  padding: 5px;
-  font-size: 1rem;
-  width: 100%;
-}
-
-#contact-form-message {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 30vh;
-}
-
-#contact-form-textarea {
-  width: 100%;
-  height: 100%;
-  resize: none;
-  border: 1px solid #d9d9d9;
-  color: #9e9c9c;
-  padding: 15px;
-  box-shadow: 2px 2px 5px #888888;
-}
-
-#contact-form-button-container {
-  width: 100%;
-  justify-content: left;
-  /* align-items: center; */
-}
-
-#contact-form-button {
-  background-color: #393939;
-  border: none;
-  height: 5vh;
-  color: #fff;
-  width: 30%;
-  box-shadow: 2px 2px 5px #888888;
-}
-
-#contact-form-button:hover {
-  cursor: pointer;
-}
-
-#contact-form-button:active {
-  box-shadow: 1px 1px 3px #888888;
+	opacity: 1 !important;
 }
