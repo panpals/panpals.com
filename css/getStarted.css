@@ -19,6 +19,14 @@
 	align-items: center;
 }
 
+a {
+	width: 100%;
+	text-decoration: none;
+	color: white;
+
+	justify-content: center;
+}
+
 .button {
 	background-color: #393939;
 	border: none;
